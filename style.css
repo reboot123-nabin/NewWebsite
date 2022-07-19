@@ -3,7 +3,7 @@
 
 :root {
     --bg-size: 100% 100%;
-    --main-color: #fff;
+    --main-color: rgb(8, 8, 8);
     --title: 'Josefin Sans', sans-serif;
     --font-para: 'David Libre', serif;
     --btn-color: #bbe1fa;
@@ -32,6 +32,18 @@ input::placeholder {
     color: #6c757d;
 }
 
+.badge {
+  display: inline-block;
+  padding: .25em .5em;
+  font-size: .75em;
+  font-weight: 700;
+  line-height: 1;
+  color: rgb(9, 9, 9);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+}
 figure img,
 .fab {
     transition: var(--eff);
@@ -710,7 +722,7 @@ i{
 /*about me div*/
 .about_me_div {
     width: auto;
-    height: 20rem;
+    height: 30rem;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
@@ -797,7 +809,6 @@ i{
 
 
 /************************blog end ******************/
-
 
 
 
